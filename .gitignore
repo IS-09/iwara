@@ -1,0 +1,22 @@
+# 运行产物，不入库
+downloads/
+previews/
+pending_delete.json
+_last_list.html
+
+# 账号（本地私有）
+account.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.log
