@@ -180,7 +180,7 @@ def main():
     ap.add_argument("--save-urls", default=None, help="把链接单独写成纯 URL 列表")
     ap.add_argument("--keep-order", action="store_true", help="保持站点顺序，不按爱心排序")
     ap.add_argument("--demo", action="store_true", help="用假数据渲染表格，检查排版")
-    ap.add_argument("--proxy", default=None, help="手动指定代理，如 http://127.0.0.1:7890")
+    ap.add_argument("--proxy", default=None, help="手动指定代理，如 http://127.0.0.1:1080")
     ap.add_argument("--no-proxy", action="store_true", help="不走代理")
     args = ap.parse_args()
 
